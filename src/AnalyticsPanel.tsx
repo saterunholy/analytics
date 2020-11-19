@@ -152,6 +152,8 @@ export class AnalyticsPanel extends PureComponent<Props> {
     image.style.width = '50%';
     image.style.position = 'absolute';
     image.style.display = 'block';
+    image.style.left = '25%';
+    image.style.bottom = '30%';
 
     const panelContents = document.getElementsByClassName('panel-content');
     for (let i = 0; i < panelContents.length; i++) {
